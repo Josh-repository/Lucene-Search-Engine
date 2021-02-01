@@ -15,7 +15,7 @@ Based on above comparison, it is good to make use of Standard Analyzer.
 •	Removes only default stop words that are predefined.  
 •	It removes leading‘s’ but no other gerund or different tense of the word.  
 # Custom Analyzer: 
-In order to overcome the above issues we make use of custom analyzer. It is built by,
+In order to overcome the above issues we make use of custom analyzer. It is built by  
 •	Creating a Standard Tokenizer named stdtokenizer.      
 •	Assigning the tokenizer to a token stream named filter to perform operations like lower case conversion, custom built stop word removal and implementing porter stem filter for the purpose of stemming.  [Through this the problem in Standard Analyzer can be tackled and performance efficiency can be improved]    
 # Indexing: 
@@ -32,11 +32,7 @@ TF: No of times term appear in a document and IDF: No of documents that contain 
 
 # Execution steps:
 These are example scripts as outlined in CS7IS3 (TCD) Lucene Tutorial
-
 These scripts are a good starting point executing Assignment.
-
-# Pre-requisite Step:
-
 1. Navigate to the the folder containing pom.xml file.
 2. Run "cd /Apache_lucene/Maven_lucene_app
 Steps to install all neccessary package using maven:
